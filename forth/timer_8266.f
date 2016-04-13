@@ -13,18 +13,3 @@
 \  See the License for the specific language governing permissions and
 \  limitations under the License.
 \
-
-12345 CONSTANT PORTA
-
-12345 CONSTANT PORTB
-
-12345 CONSTANT PORTC
-
-12345 CONSTANT PORTD
-
-12345 CONSTANT PORTE
-
-12345 CONSTANT PORTF
-
-: GPIO0 ( - -- bvalue ) 1 PORTA @ AND ;
-: GPIO1 ( - -- bvalue ) 2 PORTA @ AND 1 R ;
